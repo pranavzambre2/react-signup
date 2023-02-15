@@ -1,0 +1,97 @@
+:root {
+  --bg: #78aeff;
+  --grey: #b5b5b5;
+  --laal: #f00000;
+}
+
+.Leftpannel {
+  justify-content: center;
+}
+.p1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4em;
+  line-height: 99.19%;
+
+  letter-spacing: 0.065em;
+  color: white;
+}
+.p2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: white;
+  letter-spacing: 0.018em;
+}
+
+.Rightpannel {
+  justify-content: center;
+}
+.form-container {
+  background-color: white;
+
+  margin-top: 3vh;
+  height: 60vh;
+  width: 32vw;
+  padding: 5vh 3vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+.btn {
+  height: 8vh;
+  background-color: var(--laal);
+  border-radius: 5px;
+  border: solid transparent;
+  box-shadow: 0px 4px 4px rgba(1, 1, 1, 0.301);
+}
+.btn-blue {
+  height: 8vh;
+  background-color: rgb(255, 0, 0);
+  border-radius: 3px;
+  border: solid transparent;
+  box-shadow: 0px 4px 4px rgba(1, 1, 1, 0.301);
+}
+.btn-text1 {
+  color: white;
+  font-family: Roboto;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 10px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.btn-text2 {
+  color: white;
+  font-family: Roboto;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 10px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.btn-bottom {
+  width: 100%;
+  margin-top: 2em;
+  background-color: #37cc8a;
+}
+.btn-disabled {
+  background-color: #b5b5b5;
+  cursor: not-allowed;
+}
+
+.bottom-txt {
+  color: #c2c2c2;
+  font-size: 0.7em;
+  text-align: center;
+  font-weight: 500;
+}
+.lal {
+  color: var(--laal);
+}
+.chips-container {
+  flex-wrap: wrap;
+}
